@@ -1,0 +1,29 @@
+.body, html {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.App {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.fa-trash-alt, .fa-pen {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fa-plus-circle {
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.card {
+    width: 100%;
+}
+
+img {
+    max-width: 170px;
+    max-height: 170px;
+}

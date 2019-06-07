@@ -1,3 +1,11 @@
+##Instructions 
+This app created by React!
+To activate:
+1. git clone.
+2. npm install.
+3. npm start.
+4. go to --> http://localhost:3000/
+
 #TRAVELFACTORY - CONTACT APPLICATION#
 Welcome in our Test !   
   
