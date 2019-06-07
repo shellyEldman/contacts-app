@@ -23,12 +23,16 @@ function App() {
 
 
     const handleClose = () => {
+        cleanModal();
+        setShow(false);
+    };
+
+    const cleanModal = () => {
         setName('');
         setCity('');
         setStreet('');
         setRole('');
         setPhone('');
-        setShow(false);
     };
 
     const checkPhone = () => {
@@ -48,6 +52,7 @@ function App() {
                     role: modalRole
                 }
             ];
+            cleanModal();
             setNewContact(addNew);
             setShow(false);
         } else {
